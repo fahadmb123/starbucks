@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    display: flex;
+}
+.header-left-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 26px;
+}
+.header-left-text{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 13px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-left-text-each{
+    margin-left: 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+.header-left-text-each:hover{
+    color: green;
+}
+.header-right-loctx{
+    display:flex;
+    margin-left: 357px;
+}
+.header-right-logo{
+    height: 25px;
+    margin-top: 38px;
+}
+.header-right-text{
+    margin-top: 41px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-right-loctx:hover{
+    color: green;
+}
+.header-right{
+    display: flex;
+}
+.header-right-buttons{
+    margin-top: 36px;
+    margin-left: 63px;
+}
+.header-right-sign-button{
+    border-radius: 35px;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.header-right-join-button{
+    border-radius: 35px;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 12px;
+    color: white;
+}
+.header-right-sign-button:hover{
+    background-color: aquamarine;
+}
+.header-right-sign-button:active{
+    background-color: red;
+}
+.header-right-join-button:hover{
+    background-color: aquamarine;
+}
+.header-right-join-button:active{
+    background-color: red;
+}
+.order{
+    height: 80px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2,5%;
+    display: flex;
+    justify-content: center;
+    background-color: #32462f;
+}
+.order-para{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 28px;
+}
+.order-button{
+    height: 39px;
+    width: 138px;
+    background-color: #32462f;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.order-button:hover{
+    background-color: green;
+}
+.order-button:active{
+    background-color: red;
+}
+.section-1{
+    height: 630px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 33px;
+    display: flex;
+}
+.section-1-left{
+    width: 50%;
+}
+.section-1-left-image{
+    width: 100%%;
+    height: 100%;
+}
+.section-1-right{
+    background-color: #5f4633;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-right-content{
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+.section-1-right-h1{
+    font-size: 55px;
+}
+.section-1-right-para{
+    font-size: 26px;
+}
+.section-1-right-button{
+    width: 137px;
+    height: 40px;
+    border-radius: 35px;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 22px;
+}
+.section-1-right-button:hover{
+    background-color: green;
+}
+.section-1-right-button:active{
+    background-color: red;
+}
+.section-2{
+    margin-top: 33px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 500px;
+    display: flex;
+}
+.section-2-left{
+    width: 50%;
+    height: 100%;
+    background-color: #32462f;
+    display: flex;
+    justify-content: center;
+}
+.section-2-left-content{
+    text-align: center;
+    margin:auto;
+}
+.section-2-left-h1{
+    font-size: 50px;
+}
+.section-2-left-para{
+    font-size: 24px;
+}
+.section-2-left-button{
+    background-color: #32462f;
+    border-radius: 35px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.section-2-left-button:hover{
+    background-color: #193814;
+}
+.section-2-left-button:active{
+    background-color: red;
+}
+.section-2-right{
+    width: 50%;
+    height: 100%;
+}
+.section-2-right-image{
+    width: 100%;
+    height: 100%;
+}
+.section-3{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 600px;
+    margin-top: 33px;
+    display: flex;
+}
+.section-3-left{
+    width: 50%;
+    height: 100%;
+}
+.section-3-left-image{
+    width: 100%;
+    height: 100%;
+}
+.section-3-right{
+    width: 50%;
+    height: 100%;
+    background-color: #006342;
+    display: flex;
+    justify-content: center;
+}
+.section-3-right-content{
+    text-align: center;
+    margin: auto;
+}
+.section-3-right-h1{
+    font-size: 50px;
+}
+.section-3-right-para{
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-3-right-button{
+   font-size: 15px;
+    width: 117px;
+    height: 36px;
+    border-radius: 35px;
+    background-color: black;
+    color: #125d12;
+    font-weight: bold;
+}
+.section-3-right-button:hover{
+    background-color: #13a213;
+}
+.section-3-right-button:active{
+    background-color: red;
+}
+.section-4{
+    width: 95%;
+    margin-left:2.5% ;
+    margin-right: 2.5%;
+    height: 500px;
+    display: flex;
+    margin-top: 33px;
+}
+.section-4-left{
+    background-color:#d1d1aa ;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-4-left-content{
+    text-align: center;
+    margin: auto;
+}
+.section-4-left-h1{
+    font-size: 40px;
+    color: #61ad37;
+}
+.section-4-left-para{
+    font-size: 21px;
+    color:#61ad37 ;
+    font-weight: bold;
+}
+.section-4-left-button{
+    background-color: #d1d1aa;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    height: 37px;
+    margin-top: 40px;
+}
+.section-4-left-button:hover{
+    background-color: #0de49d;
+}
+.section-4-left-button:active{
+    background-color: red;
+}
+.section-4-right{
+    width: 50%;
+    height: 100%;
+}
+.section-4-right-image{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 95%;
+    height: 1444px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.footer-1{
+    text-align: center;
+}
+.footer-1-para{
+    margin-top: 135px;
+    font-size: 14px;
+}
+.footer-hr{
+    margin-top: 30px;
+}
+.footer-2{
+    margin-top: 100px;
+}
+.footer-2-table{
+    width: 70%;
+    text-align: left;
+}
+tr{
+    height: 50px;
+}
+td{
+    font-weight: lighter;
+    color:rgba(154, 154, 157, 0.451) ;
+}
+td:hover{
+    color: white;
+}
+th{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.footer-3-text{
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+}
+.footer-last-text{
+    font-weight: lighter;
+    color: rgba(154, 154, 157, 0.451);
+}
+.footer-3-text:hover{
+    text-decoration: underline;
+}
