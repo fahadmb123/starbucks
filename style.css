@@ -318,6 +318,7 @@ footer{
     height: 1444px;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    background-color:black;
 }
 .footer-1{
     text-align: center;
@@ -364,3 +365,4 @@ th{
     text-decoration: underline;
 
 }
+
