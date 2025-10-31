@@ -47,6 +47,7 @@ body{
     margin-left: 12px;
     font-size: 14px;
     font-weight: bold;
+    color: white;
 }
 .header-right-loctx:hover{
     color: green;
@@ -298,6 +299,7 @@ body{
     background-color: black;
     height: 37px;
     margin-top: 40px;
+    color: white;
 }
 .section-4-left-button:hover{
     background-color: #0de49d;
@@ -326,6 +328,7 @@ footer{
 .footer-1-para{
     margin-top: 135px;
     font-size: 14px;
+    color: white;
 }
 .footer-hr{
     margin-top: 30px;
@@ -350,6 +353,7 @@ td:hover{
 th{
     font-size: 20px;
     font-weight: lighter;
+    color: white;
 }
 .footer-3-text{
     font-size: 15px;
@@ -365,4 +369,5 @@ th{
     text-decoration: underline;
 
 }
+
 
