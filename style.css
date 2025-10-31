@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color:black;
 }
 .header{
     width: 100%;
@@ -361,4 +362,5 @@ th{
 }
 .footer-3-text:hover{
     text-decoration: underline;
+
 }
