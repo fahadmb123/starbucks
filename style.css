@@ -117,6 +117,7 @@ body{
     font-size: 17px;
     margin-left: 25px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .order-button:hover{
     background-color: green;
@@ -164,6 +165,7 @@ body{
     font-weight: bold;
     background-color: black;
     margin-top: 22px;
+    cursor: pointer;
 }
 .section-1-right-button:hover{
     background-color: green;
@@ -204,6 +206,7 @@ body{
     font-weight: bold;
     font-size: 16px;
     border: 1px solid white;
+    cursor: pointer;
 }
 .section-2-left-button:hover{
     background-color: #193814;
@@ -261,6 +264,7 @@ body{
     background-color: black;
     color: #125d12;
     font-weight: bold;
+    cursor: pointer;
 }
 .section-3-right-button:hover{
     background-color: #13a213;
@@ -305,6 +309,7 @@ body{
     height: 37px;
     margin-top: 40px;
     color: white;
+    cursor: pointer;
 }
 .section-4-left-button:hover{
     background-color: #0de49d;
@@ -374,6 +379,7 @@ th{
     text-decoration: underline;
 
 }
+
 
 
 
