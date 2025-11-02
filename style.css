@@ -48,6 +48,7 @@ body{
     font-size: 14px;
     font-weight: bold;
     color: white;
+    cursor:pointer;
 }
 .header-right-loctx:hover{
     color: green;
@@ -369,5 +370,6 @@ th{
     text-decoration: underline;
 
 }
+
 
 
