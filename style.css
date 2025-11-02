@@ -50,6 +50,9 @@ body{
     color: white;
     cursor:pointer;
 }
+.header-right-text:hover{
+    color:green;
+}    
 .header-right-loctx:hover{
     color: green;
 }
@@ -370,6 +373,7 @@ th{
     text-decoration: underline;
 
 }
+
 
 
 
